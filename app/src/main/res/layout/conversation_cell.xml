@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/message_cell_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/conversation_sender_image"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:src="@drawable/blank_contact"/>
+
+    <TextView
+        android:id="@+id/conversation_user_name_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/user_name"
+        android:fontFamily="@font/atlas_bold"
+        android:textSize="25sp"
+        android:textColor="#000"
+        android:layout_toEndOf="@+id/conversation_sender_image"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="10dp"/>
+
+    <TextView
+        android:id="@+id/conversation_message_text_view"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_below="@+id/conversation_user_name_text_view"
+        android:layout_toEndOf="@id/conversation_sender_image"
+        android:text="@string/text_message"
+        android:textColor="#444444"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:id="@+id/conversation_time_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/conversation_sender_image"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="11dp"
+        android:fontFamily="@font/atlas_bold"
+        android:text="00:00"
+        android:textSize="15sp"
+        tools:ignore="HardcodedText" />
+
+</RelativeLayout>

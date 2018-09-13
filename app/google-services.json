@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "540199796901",
+    "firebase_url": "https://alohaworld-chat-and-video.firebaseio.com",
+    "project_id": "alohaworld-chat-and-video",
+    "storage_bucket": "alohaworld-chat-and-video.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:540199796901:android:84aaac4438a82c11",
+        "android_client_info": {
+          "package_name": "com.example.leeronziv.alohaworld_chatvideo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "540199796901-jkma1h2ta9c0nt04cfq2c8skb6koati0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.leeronziv.alohaworld_chatvideo",
+            "certificate_hash": "43be85f4d85915021d4374a24ed0ef928e39f996"
+          }
+        },
+        {
+          "client_id": "540199796901-8v4dsag9vt5ck5nm2a12j9plot59e0r4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJQ0W9y3rYXYJYP-COYdFBbvcAkKQh7Oo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "540199796901-8v4dsag9vt5ck5nm2a12j9plot59e0r4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

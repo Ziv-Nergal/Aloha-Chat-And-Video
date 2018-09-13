@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v7.widget.Toolbar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_tool_bar"
+    android:layout_width="match_parent"
+    android:layout_height="55dp"
+    android:theme="@style/Base.ThemeOverlay.AppCompat.Dark.ActionBar">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/title_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/all_users"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:fontFamily="@font/atlas_bold"
+            android:layout_centerVertical="true"
+            android:visibility="invisible"/>
+
+        <include
+            android:id="@+id/chat_toolbar_items"
+            layout="@layout/chat_image_bar_layout"
+            android:visibility="invisible"/>
+
+    </RelativeLayout>
+
+
+
+</android.support.v7.widget.Toolbar>

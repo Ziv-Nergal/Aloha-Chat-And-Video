@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:weightSum="100"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="50"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/custom_bar_user_name_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/atlas_bold"
+            android:textColor="#fff"
+            android:text="@string/user_name"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/custom_bar_last_seen_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/atlas_bold"
+            android:textColor="#fff"
+            android:text="@string/last_seen"
+            android:textSize="12sp" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="50">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/custom_bar_image"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_margin="10dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_gravity="end"
+            android:src="@drawable/blank_contact"
+            app:civ_border_color="#fff"
+            app:civ_border_width="1dp" />
+
+        <ImageButton
+            android:id="@+id/video_session_btn"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_margin="10dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginEnd="-10dp"
+            android:layout_toStartOf="@+id/custom_bar_image"
+            android:background="#00ffffff"
+            android:src="@drawable/ic_video_call_white_24dp"
+            android:importantForAccessibility="no"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

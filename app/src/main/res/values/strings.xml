@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Aloha Chat</string>
+    <string name="log_out">Log Out</string>
+    <string name="all_users">All Users</string>
+    <string name="account_settings">Account Settings</string>
+    <string name="user_name">User Name</string>
+    <string name="email_address">Email Address</string>
+    <string name="password">Password</string>
+    <string name="sign_in">Sign in</string>
+    <string name="sign_up">Create account</string>
+    <string name="dont_have_an_account">Don\'t have an account?</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="default_status">Hey there! i am using Aloha</string>
+    <string name="default_user_name">User Name</string>
+    <string name="aloha">ALOHA</string>
+    <string name="new_input">New Input</string>
+    <string name="cancel_friend_request">Cancel Friend Request</string>
+    <string name="send_friend_request">Send Friend Request</string>
+    <string name="accept_friend_request">Accept Friend Request</string>
+    <string name="unfriend">Unfriend</string>
+    <string name="channel_name">New Message</string>
+    <string name="channel_description">messages</string>
+    <string name="open_profile">Open Profile</string>
+    <string name="send_message">Send Message</string>
+    <string name="decline">decline</string>
+    <string name="last_seen">Last Seen</string>
+    <string name="online">Online</string>
+    <string name="enter_message">Enter Message...</string>
+    <string name="text_message">Text Message</string>
+    <string name="no_requests">No Requests to show for now</string>
+    <string name="calling">Calling</string>
+    <string name="profile">Profile</string>
+</resources>
