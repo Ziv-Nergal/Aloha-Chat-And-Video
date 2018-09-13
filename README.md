@@ -6,9 +6,9 @@
 - Sending messages to friends
 - Sending photos to friends
 - Making video calls to friends
-- Getting notifications from app when it is in background or forground
+- Getting notifications from the app when it is in background or foreground
 
-This app is based on Google'S firebase and Opentok's sdk (www.opentok.com) for chat and video calls.
+This app is based on Google'S firebase and Opentok's sdk (www.opentok.com) for the chat and video calls.
 
 # Screenshots
 
